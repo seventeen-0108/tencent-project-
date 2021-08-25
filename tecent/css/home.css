@@ -1,0 +1,164 @@
+*,header{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 100px
+}
+header{
+    position: relative;
+    height:0.6rem ;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-icon{
+    position: absolute;
+    top: 0.23rem;
+    left: .2rem;
+}
+header h2{
+    font-weight: 600;
+    font-size: .2rem;
+    /* margin: 0 auto; */
+}
+.content{
+    box-sizing: border-box;
+    padding: .2rem .2rem;
+    font-size: .16rem;
+}
+.content .box{
+    display: flex;
+    justify-content: space-between;
+}
+.content .box img{
+    width: 1.5rem;
+    height: .7rem;
+}
+.content .box nav{
+    margin-left: .2rem;
+}
+.content .box nav span{
+    font-size: .12rem;
+    display: block;
+    margin-top: .10rem;
+    color: #808080;
+}
+
+.like{
+    display: flex;
+    margin-top: .1rem;
+}
+.like strong{
+    display: block;
+    border-right:2px solid #e8e8e8;
+    line-height: .1rem;
+    height: .1rem;
+    padding-right: .1rem;
+    padding-left: .1rem;
+    text-align: center;
+    color: #cccccc;
+    font-weight: normal;
+}
+.like span{
+    
+    
+    font-size: .12rem;
+}
+.like strong:nth-child(3){
+    border: 0;
+}
+.like strong:nth-child(1){
+    padding-left: 0;
+}
+.joinus{
+    
+    width:2.75rem ;
+    display: flex;
+    margin-left: .2rem;
+    height: .25rem;
+}
+.joinus .gang{
+    height: .25rem;
+    width: 0.08rem;
+    border-radius: 0.04rem;
+    background-color: blue;
+}
+.joinus h2{
+    padding-left: .05rem;
+    font-size: .20rem;
+    line-height: .25rem;
+}
+.inp-radio{
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+    padding-left: .25rem;
+    font-size: .16rem;
+    line-height: .3rem;
+}
+.text{
+    padding-left: .2rem;
+    color: gray;
+    font-size: .1rem;
+}
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid black;
+    width: 100%;
+    height: .8rem;
+}
+.left{
+    width: 2.5rem;
+}
+.left p{
+    padding-left: .3rem;
+    margin-top: .15rem;
+    color:gray;
+    font-size: .1rem;
+}
+.left h1{
+    padding-left: .3rem;
+    font-size: .3rem;
+}
+.right{
+    flex:1;
+}
+.right p{
+    width: 1rem;
+    margin-top: .2rem;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: .16rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.tab-change{
+    width: 100%;
+    /* height: 4rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    /* padding: .1rem; */
+}
+.tab-change p{
+    width: 1rem;
+    height: .6rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    background-color: gray;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .6rem;
+    border-radius: .1rem;
+}
+.tab-change .active{
+    background-color: red;
+    color: blue;
+}
